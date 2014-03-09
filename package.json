@@ -1,0 +1,23 @@
+{
+  "name": "FitnessGraph_Client",
+  "version": "1.0.0",
+  "description": "Web application to support Fitness Graph",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ryibas/FitnessGraph_Client.git"
+  },
+  "author": "Ryan Baseman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ryibas/FitnessGraph_Client/issues"
+  },
+  "homepage": "https://github.com/ryibas/FitnessGraph_Client",
+  "dependencies": {
+    "jade": "^1.3.0",
+    "express": "^3.5.0"
+  }
+}
