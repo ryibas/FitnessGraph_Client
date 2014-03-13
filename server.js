@@ -16,8 +16,8 @@ app.configure(function() {
 	app.use(express.bodyParser());
 	app.use(stylus.middleware(
 		{
-		  src: __dirname + '/public',
-		  compile: compile
+            src: __dirname + '/public',
+            compile: compile
 		}
 	));
 	app.use(express.static(__dirname + '/public'));
